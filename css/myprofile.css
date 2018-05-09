@@ -40,6 +40,11 @@ html {
 }
 #questions {
     height: 10vh;
+
+    white-space: nowrap;
+    
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 #followedDefault {
     display: none;
